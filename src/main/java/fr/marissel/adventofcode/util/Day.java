@@ -5,6 +5,7 @@ import fr.marissel.adventofcode.days.Issue1;
 import fr.marissel.adventofcode.days.Issue10;
 import fr.marissel.adventofcode.days.Issue11;
 import fr.marissel.adventofcode.days.Issue12;
+import fr.marissel.adventofcode.days.Issue16;
 import fr.marissel.adventofcode.days.Issue2;
 import fr.marissel.adventofcode.days.Issue3;
 import fr.marissel.adventofcode.days.Issue4;
@@ -27,7 +28,8 @@ public enum Day {
   D9(new Issue9()),
   D10(new Issue10()),
   D11(new Issue11()),
-  D12(new Issue12());
+  D12(new Issue12()),
+  D16(new Issue16());
 
   Day(Issue issue) {
     this.issue = issue;
