@@ -10,7 +10,7 @@ public class IssueTest {
   @Test
   public void issueTest() {
 
-    Day day = Day.D16;
+    Day day = Day.D15;
     System.out.println("Part 1 : " + day.compute(Part.ONE));
     System.out.println("Part 2 : " + day.compute(Part.TWO));
   }
